@@ -1,26 +1,15 @@
-// 자주 쓰이는 대표 장르 (AGENTS.md §6)
-// 백엔드는 ILIKE로 대소문자 무관하나 일관성을 위해 소문자 영문 권장.
+// 장르 카테고리 (AGENTS.md §6)
+// value: 백엔드 selected_genre 로 전송하는 key
+// label: 화면에 표시되는 한글 카테고리명
 export const GENRES: { value: string; label: string }[] = [
-  { value: "acoustic", label: "Acoustic 🎸" },
-  { value: "pop", label: "Pop 🎤" },
-  { value: "k-pop", label: "K-Pop 💖" },
-  { value: "indie", label: "Indie 🌿" },
-  { value: "rock", label: "Rock 🤘" },
-  { value: "hip-hop", label: "Hip-Hop 🎧" },
-  { value: "jazz", label: "Jazz 🎷" },
-  { value: "classical", label: "Classical 🎻" },
-  { value: "r-n-b", label: "R&B 🍷" },
-  { value: "edm", label: "EDM 🔊" },
-  { value: "dance", label: "Dance 💃" },
-  { value: "ambient", label: "Ambient 🌫️" },
-  { value: "chill", label: "Chill 🧊" },
-  { value: "electronic", label: "Electronic ⚡" },
-  { value: "folk", label: "Folk 🍂" },
-  { value: "metal", label: "Metal 🔥" },
-  { value: "blues", label: "Blues 💙" },
-  { value: "disco", label: "Disco 🪩" },
-  { value: "house", label: "House 🏠" },
-  { value: "study", label: "Study 📖" },
-  { value: "sad", label: "Sad 💧" },
-  { value: "happy", label: "Happy ☀️" },
+  { value: "pop", label: "팝 🎤" },
+  { value: "rock", label: "록 🤘" },
+  { value: "metal", label: "메탈 🔥" },
+  { value: "electronic", label: "일렉트로닉/EDM ⚡" },
+  { value: "hiphop_rnb", label: "힙합/R&B 🎧" },
+  { value: "jazz_classical", label: "재즈/클래식 🎷" },
+  { value: "acoustic_folk", label: "어쿠스틱/포크 🎸" },
+  { value: "world", label: "월드뮤직 🌍" },
+  { value: "mood", label: "감성/무드 🌙" },
+  { value: "soundtrack", label: "사운드트랙/기타 🎬" },
 ];
