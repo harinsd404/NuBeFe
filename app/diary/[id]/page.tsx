@@ -85,7 +85,7 @@ export default function DiaryDetailPage({
           {error ?? "추천 결과를 찾을 수 없어요"}
         </p>
         <Link href="/" className="y2k-btn">
-          ☁ 새 일기 쓰러 가기
+          새 일기 쓰러 가기
         </Link>
       </div>
     );
@@ -155,7 +155,7 @@ export default function DiaryDetailPage({
 
       <div className="mt-10 flex flex-wrap justify-center gap-3">
         <Link href="/" className="y2k-btn">
-          ☁ 또 기록하기
+          또 기록하기
         </Link>
         <Link href="/archive" className="y2k-btn y2k-btn--ice">
           📼 아카이브 보기
