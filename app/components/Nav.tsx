@@ -15,8 +15,7 @@ export default function Nav() {
     <header className="sticky top-0 z-30 px-4 py-3 sm:px-6">
       <nav className="y2k-panel mx-auto flex max-w-3xl items-center justify-between px-4 py-2.5 sm:px-6">
         <Link href="/" className="group flex items-center gap-2">
-          <span className="text-2xl">☁</span>
-          <span className="chrome-text font-pixel text-lg sm:text-xl">
+          <span className="chrome-text chrome-text--bold font-pixel text-lg sm:text-xl">
             NUBE
           </span>
           <span className="text-base">✦</span>
