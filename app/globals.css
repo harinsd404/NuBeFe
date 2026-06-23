@@ -60,12 +60,6 @@ body::before {
   filter: drop-shadow(2px 3px 0 rgba(214, 58, 160, 0.35));
 }
 
-/* NUBE 타이포 로고 — 굵게 */
-.chrome-text--bold {
-  font-weight: 700;
-  -webkit-text-stroke-width: 2.5px;
-}
-
 .holo-text {
   background: linear-gradient(
     90deg,

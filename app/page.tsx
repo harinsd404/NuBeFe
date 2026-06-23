@@ -53,7 +53,7 @@ export default function Home() {
 
       {/* 히어로 */}
       <section className="mb-8 text-center">
-        <h1 className="chrome-text chrome-text--bold mb-3 font-pixel text-2xl leading-relaxed sm:text-4xl">
+        <h1 className="chrome-text mb-3 font-pixel text-2xl leading-relaxed sm:text-4xl">
           NUBE
         </h1>
         <p className="text-base text-ink/80 sm:text-lg">
