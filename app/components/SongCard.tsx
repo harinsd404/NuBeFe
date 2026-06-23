@@ -1,5 +1,6 @@
 import type { Song } from "../lib/types";
 import SpotifyPlayer from "./SpotifyPlayer";
+import YouTubeBox from "./YouTubeBox";
 
 // distance(작을수록 적합)를 0~100% 매칭도로 환산 (대략적 시각화)
 function matchPercent(distance: number): number {
@@ -48,6 +49,8 @@ export default function SongCard({ song }: { song: Song }) {
         title={song.title}
         artist={song.artist}
       />
+
+      <YouTubeBox title={song.title} artist={song.artist} />
     </article>
   );
 }
