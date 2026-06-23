@@ -1,0 +1,26 @@
+// 자주 쓰이는 대표 장르 (AGENTS.md §6)
+// 백엔드는 ILIKE로 대소문자 무관하나 일관성을 위해 소문자 영문 권장.
+export const GENRES: { value: string; label: string }[] = [
+  { value: "acoustic", label: "Acoustic 🎸" },
+  { value: "pop", label: "Pop 🎤" },
+  { value: "k-pop", label: "K-Pop 💖" },
+  { value: "indie", label: "Indie 🌿" },
+  { value: "rock", label: "Rock 🤘" },
+  { value: "hip-hop", label: "Hip-Hop 🎧" },
+  { value: "jazz", label: "Jazz 🎷" },
+  { value: "classical", label: "Classical 🎻" },
+  { value: "r-n-b", label: "R&B 🍷" },
+  { value: "edm", label: "EDM 🔊" },
+  { value: "dance", label: "Dance 💃" },
+  { value: "ambient", label: "Ambient 🌫️" },
+  { value: "chill", label: "Chill 🧊" },
+  { value: "electronic", label: "Electronic ⚡" },
+  { value: "folk", label: "Folk 🍂" },
+  { value: "metal", label: "Metal 🔥" },
+  { value: "blues", label: "Blues 💙" },
+  { value: "disco", label: "Disco 🪩" },
+  { value: "house", label: "House 🏠" },
+  { value: "study", label: "Study 📖" },
+  { value: "sad", label: "Sad 💧" },
+  { value: "happy", label: "Happy ☀️" },
+];

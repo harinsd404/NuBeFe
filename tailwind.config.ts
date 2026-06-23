@@ -10,12 +10,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        pink: "#ff77cc",
+        "pink-deep": "#d63aa0",
+        ice: "#d9ffff",
+        "ice-deep": "#7fe3ff",
+        lilac: "#c8a2ff",
+        cream: "#fff7fc",
+        ink: "#2b1733",
       },
       fontFamily: {
-        sans: ["var(--font-geist-sans)", "sans-serif"],
-        mono: ["var(--font-geist-mono)", "monospace"],
+        sans: ["Galmuri11", "Apple SD Gothic Neo", "sans-serif"],
+        pixel: ["Galmuri9", "Galmuri11", "monospace"],
       },
     },
   },
