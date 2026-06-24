@@ -32,16 +32,19 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* 별가루가 깔린 배경 도트 패턴 */
+/* 하얀색 도트 무늬 — 같은 크기 점을 반칸씩 엇갈리게 배치 */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.7) 1px, transparent 1px);
-  background-size: 22px 22px;
-  opacity: 0.35;
+  background-image:
+    radial-gradient(#ffffff 3px, transparent 3px),
+    radial-gradient(#ffffff 3px, transparent 3px);
+  background-size: 32px 32px, 32px 32px;
+  background-position: 0 0, 16px 16px;
+  opacity: 0.9;
 }
 
 /* ===== 타이포 ===== */
